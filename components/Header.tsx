@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
+import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
@@ -13,12 +13,9 @@ const Header: React.FC = () => {
         <Link href="/tailwind">
           <a className="tracking-wide hover:text-gray-300">Tailwind</a>
         </Link>
-        <Link href="/framermotion">
-          <a className="tracking-wide hover:text-gray-300">Framer Motion</a>
-        </Link>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

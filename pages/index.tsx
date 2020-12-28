@@ -1,19 +1,4 @@
-import Link from "next/link";
-
-interface CardProps {
-  href: string;
-  imgSrc: string;
-}
-
-const Card: React.FC<CardProps> = ({ href, imgSrc }) => {
-  return (
-    <Link href={href}>
-      <div className="relative h-20 md:h-40 bg-gray-200 rounded-xl cursor-pointer hover:bg-gray-50 transition">
-        <img src={imgSrc} className="w-full h-full" />
-      </div>
-    </Link>
-  );
-};
+import Card from "../components/Card";
 
 export default function Home() {
   return (
